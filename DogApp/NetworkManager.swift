@@ -9,7 +9,7 @@ import Foundation
 final class NetworkManager {
     static let share = NetworkManager()
     static let baseURL = "https://api.thedogapi.com/v1"
-    static private let apiKey = "live_FB0p8UeOAF5KbwMJgsn05RN1KlKVk18v4uDFNdhPooEkr5b6GA2fu3O7LbgqFk8X"
+    static private let apiKey = "live_key"
     private let breedURL = baseURL + "/breeds"
     
     private init() {}
