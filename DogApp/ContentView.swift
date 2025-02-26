@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+   
+    @StateObject var viewModel = DogAppViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+        NavigationView {
+            List(viewModel.dogbreed, id: \.name) { breed in
+                NavigationLink(destination: DogBreedDetailView(specificDog: breed)) {
+                       DogBreedListCell(dogBreed: breed)
+                   }
+            }
+            .navigationTitle("Dog Atlas")
+        }.onAppear {
+            viewModel.fetchBreeds()
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
