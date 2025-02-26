@@ -1,6 +1,13 @@
 # 🐶 Dog Atlas - SwiftUI App
 Dog Atlas is a SwiftUI-based iOS app that displays dog breeds with detailed information, including images, temperament, origin, and life span. The app fetches data from The Dog API and presents it in an intuitive and interactive UI using NavigationView, LazyVGrid, and AsyncImage.
 
+
+![Image](https://github.com/user-attachments/assets/6b18a30a-1144-4bc3-b76e-950a542224ce)
+
+![Image](https://github.com/user-attachments/assets/efa1d893-11fa-4751-856f-3eddeb5f7f82)
+
+
+
 ✅ Fetches real-time dog breed data from The Dog API.
 
 ✅ Displays dog images and details in a structured LazyVGrid.
