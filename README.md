@@ -9,7 +9,7 @@ Dog Atlas is a SwiftUI-based iOS app that displays dog breeds with detailed info
 
 ✅ Navigation to Detail View for in-depth breed information.
 
-🔧 ##Configuration
+## 🔧 Configuration
 
 1. Obtain API Key from The Dog API
 
